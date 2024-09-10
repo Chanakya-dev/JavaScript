@@ -2,7 +2,7 @@
 // Define the object
 let a1 = {
     name: "marsh",              
-    age: 30,                    
+    age: 20,                    
     f1: function() {         
         console.log( this.name);
     }
