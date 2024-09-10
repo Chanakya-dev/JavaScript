@@ -10,17 +10,21 @@ console.log("Updating the values")
 
 a=30;
 c=25;
-//b=10; //This cannot be updated. It gives an error.
+//b=10; //This cannot be updated. It gives an error because it is declared as "const"
 console.log(a);
 console.log(b);
 console.log(c);
 
-console.log("Difference between let and var")
+console.log("let and var")
 
-function prod(){
-    let x=10;
-    var y=5;
-    console.log(x*y)
+
+
+
+
+function prod(x,y){
+    var z=30;
+    console.log(x*y*z)
 }
-prod();
+
+prod(10,20)
 
